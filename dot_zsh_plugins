@@ -1,0 +1,15 @@
+# Git Rebase Helper
+smallhadroncollider/antigen-git-rebase
+
+# Alias reminders
+djui/alias-tips
+
+# Autoload Python VirtualEnv
+# MichaelAquilina/zsh-autoswitch-virtualenv
+
+# Shell Syntax Highlighting
+zdharma/fast-syntax-highlighting
+zpm-zsh/ls
+
+# Themes
+bhilburn/powerlevel9k branch:next

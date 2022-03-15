@@ -1,0 +1,14 @@
+export TERM="xterm-256color"
+export GOPATH="$HOME/go"
+export NVM_DIR="$HOME/.nvm"
+export ANTIBODY_HOME=~/.antibody
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+
+# Path modifications
+export PATH="$PATH:/usr/local/bin:/usr/local/sbin" # Homebrew
+export PATH="/usr/local/go/bin:$PATH:$GOPATH/bin" # golang
+export PATH="$PATH:$HOME/.cabal/bin" # haskell
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH" # GNU utils
+export PATH="$PATH:$HOME/.dotnet/tools" # dotnet tools
+export PATH="$PATH:$HOME/.cargo/bin" # rust
+

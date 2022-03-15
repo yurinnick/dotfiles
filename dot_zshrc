@@ -1,0 +1,26 @@
+source ~/.common_aliases
+source ~/.common_env
+
+
+# History configuration
+HISTFILE=~/.zsh_history
+HISTSIZE=1000
+SAVEHIST=1000
+
+# Autocomplete setup
+fpath=(/usr/local/share/zsh-completions $fpath)
+autoload -Uz compinit
+compinit
+
+# Theme config
+source ~/.zsh_theme_config
+
+# Antibody setup
+source <(antibody init)
+antibody bundle < ~/.zsh_plugins
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# If not running interactively, do not do anything
+[[ $- != *i* ]] && return
+

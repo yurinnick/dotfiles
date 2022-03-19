@@ -2,15 +2,17 @@
 
 {{ if eq .chezmoi.osRelease.id "fedora" -}}
 sudo dnf install -y git vim tmux neovim powertop tlp which
-
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
-
-flatpak install flathub \
-    com.bitwarden.desktop \
-    com.skype.Client \
-    org.standardnotes.standardnotes \
-    org.telegram.desktop \
-    org.gnome.Evolution \
-    com.spotify.Client
 {{ end -}}
+
+if command -v flatpak &> /dev/null; then
+    flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo
+
+    flatpak install flathub \
+        com.bitwarden.desktop \
+        com.skype.Client \
+        org.standardnotes.standardnotes \
+        org.telegram.desktop \
+        org.gnome.Evolution \
+        com.spotify.Client
+fi

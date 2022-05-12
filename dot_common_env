@@ -1,4 +1,5 @@
 export TERM="xterm-256color"
+export EDITOR=vim
 export GOPATH="$HOME/go"
 export NVM_DIR="$HOME/.nvm"
 export ANTIBODY_HOME=~/.antibody
@@ -11,3 +12,5 @@ export PATH="$PATH:$HOME/.cabal/bin" # haskell
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH" # GNU utils
 export PATH="$PATH:$HOME/.dotnet/tools" # dotnet tools
 export PATH="$PATH:$HOME/.cargo/bin" # rust
+export PATH="$PATH:$HOME/.brew/bin" # homebrew
+

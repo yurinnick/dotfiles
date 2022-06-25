@@ -1,0 +1,41 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "window.titleBarStyle": "custom",
+    "go.formatTool": "gofmt",
+    "rust.mode": "rls",
+    "rust.all_features": true,
+    "rust.actionOnSave": "build",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "rust.rustup": {
+        "toolchain": "nightly-x86_64-unknown-linux-gnu"
+    },
+    "python.languageServer": "Pylance",
+    "workbench.panel.defaultLocation": "right",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "go.goroot": "/home/yurinnick/.gvm/gos/go1.17",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/usr/bin/flatpak-spawn",
+            "args": ["--host", "--env=TERM=xterm-256color", "bash"]
+        }
+    },
+    "remote.containers.dockerPath": "podman",
+    "files.trimTrailingWhitespace": true,
+    "cmake.configureOnOpen": true,
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true
+}

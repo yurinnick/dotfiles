@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dnf install tmux
+sudo dnf install tmux
 
 TPM_DIR="$HOME/.tmux/plugins/tpm"
 if [ ! -d "$TPM_DIR" ];then

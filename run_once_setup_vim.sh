@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dnf install -y vim neovim
+sudo dnf install -y vim neovim
 
 NVIM_PLUGINS_DIR="$HOME/.local/share/nvim/site/autoload"
 VIM_PLUGINS_DIR="$HOME/.vim/autoload"

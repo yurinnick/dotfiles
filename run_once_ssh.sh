@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dnf install -y openssh
+sudo dnf install -y openssh
 
 mkdir -p "$HOME/.ssh"
 if [ ! -f "$HOME/.ssh/id_rsa" ]; then

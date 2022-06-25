@@ -1,3 +1,3 @@
 #!/bin/bash
 
-dnf install -y nodejs
+sudo dnf install -y nodejs

@@ -11,4 +11,3 @@ export PATH="$PATH:$HOME/.cabal/bin" # haskell
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH" # GNU utils
 export PATH="$PATH:$HOME/.dotnet/tools" # dotnet tools
 export PATH="$PATH:$HOME/.cargo/bin" # rust
-

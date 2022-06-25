@@ -112,4 +112,3 @@ nmap <F6> :NERDTreeToggle<CR>
 " FZF
 nnoremap <silent> <leader>f :FZF<cr>
 nnoremap <silent> <leader>F :FZF ~<cr>
-

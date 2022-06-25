@@ -1,5 +1,6 @@
 #!/bin/bash
 
+dnf install -y vim neovim
 
 NVIM_PLUGINS_DIR="$HOME/.local/share/nvim/site/autoload"
 VIM_PLUGINS_DIR="$HOME/.vim/autoload"
@@ -13,4 +14,3 @@ if [ ! -f "$NVIM_PLUGINS_DIR/plug.vim" ]; then
 
   ln -s "$NVIM_PLUGINS_DIR/plug.vim" "$VIM_PLUGINS_DIR/plug.vim"
 fi
-

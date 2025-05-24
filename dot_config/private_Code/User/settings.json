@@ -27,7 +27,11 @@
     "terminal.integrated.profiles.linux": {
         "bash": {
             "path": "/usr/bin/flatpak-spawn",
-            "args": ["--host", "--env=TERM=xterm-256color", "bash"]
+            "args": [
+                "--host",
+                "--env=TERM=xterm-256color",
+                "bash"
+            ]
         }
     },
     "remote.containers.dockerPath": "podman",
@@ -37,5 +41,25 @@
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
     "files.trimFinalNewlines": true,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "[python]": {
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "yaml.schemas": {
+        "/home/yurinnick/.vscode/extensions/continue.continue-1.0.10-linux-x64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ]
+    },
+    "vs-kubernetes": {
+        "vscode-kubernetes.minikube-path-linux": "/home/yurinnick/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+        "vscode-kubernetes.helm-path-linux": "/home/yurinnick/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm"
+    },
+    "files.autoSave": "afterDelay"
 }

@@ -41,5 +41,5 @@
   br = branch
   unstage = reset HEAD --
   last = log -1 HEAD
-  prum = pull --rebase upstream master
+  prum = pull --rebase upstream main
 

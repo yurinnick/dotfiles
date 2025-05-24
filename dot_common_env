@@ -13,4 +13,6 @@ export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH" # GNU utils
 export PATH="$PATH:$HOME/.dotnet/tools" # dotnet tools
 export PATH="$PATH:$HOME/.cargo/bin" # rust
 export PATH="$PATH:$HOME/.brew/bin" # homebrew
+export PATH="$PATH:/opt/balena-cli" # balena-cli
+export PATH="$HOME/.local/bin:$PATH"
 

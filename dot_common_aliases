@@ -12,6 +12,8 @@ alias k="kubectl"
 alias velero="velero -n storage"
 alias kdebug="kubectl run -it --rm --restart=Never --image=infoblox/dnstools:latest dnstools"
 
+alias ta="exec tmux attach-session -d -t \"${USER}\" >/dev/null 2>&1"
+
 function openfaas {
   if [ $# -eq 0 ]; then
     faas-cli
@@ -48,3 +50,4 @@ function ynk-help {
   echo "* smug - tmux session manager"
   echo "* tio - serial device I/O tool"
 }
+
